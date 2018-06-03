@@ -1,4 +1,4 @@
-myList = [4,0,3,-13,5,8,31]
+myList = [4,0,3,-13,5,8,31,36,-100]
 print ("before sort:")
 print(myList)
 
