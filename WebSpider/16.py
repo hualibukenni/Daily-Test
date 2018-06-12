@@ -1,6 +1,7 @@
-import http.cookiejar,urllib.request
+import http.cookiejar,urllib.request,ssl
 
-filename = 'cookies/cookie1.txt'
+ssl._create_default_https_context = ssl._create_unverified_context
+filename = 'cookie2.txt'
 # cookie = http.cookiejar.MozillaCookieJar(filename)
 cookie = http.cookiejar.LWPCookieJar(filename)
 handler = urllib.request.HTTPCookieProcessor(cookie)
