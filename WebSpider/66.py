@@ -1,8 +1,8 @@
 import pymysql
 data = {
-    'id':'20120002',
+    'id':'20120003',
     'name':'Bob',
-    'age':20
+    'age':25
 }
 db = pymysql.connect(host='localhost',user='root',password='lhyaiwh',port=3306,db='spiders')
 cursor = db.cursor()
