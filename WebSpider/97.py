@@ -1,1 +1,3 @@
+import pyspider
+
 import pyquery
